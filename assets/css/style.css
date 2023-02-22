@@ -73,6 +73,13 @@ body{
 }
 
 
+.debug .image,.text{
+
+    width: calc( 100% / 12 * 6);
+
+}
+
+
 /* debug */
 
 /* utility */
@@ -141,7 +148,6 @@ body{
 .container{
 
     width: 100%;
-
 }
 
 #banner_upgrade{
@@ -151,10 +157,22 @@ body{
 
 }
 
+.link{
+
+    padding: 10px;
+
+}
+
+.title{
+
+    padding: 1rem 0;
+
+}
+
 .image,.text{
 
     width: calc( 100% / 12 * 6);
-
+    height: 100px;
 }
 
 /* layout */

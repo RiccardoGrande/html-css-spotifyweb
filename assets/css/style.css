@@ -200,6 +200,12 @@ body{
     height: 100px;
 }
 
+.smaller{
+
+    width: 20%;
+
+}
+
 .bottom_content{
 
     width: 20%;
@@ -248,6 +254,12 @@ body{
 
         }
 
+        .smaller{
+
+            width: 50%;
+            
+        }
+
 }
 
 
@@ -264,6 +276,12 @@ body{
 
         width: 25%;
 
+    }
+
+    .smaller{
+
+        width: 50%;
+        
     }
 
 }

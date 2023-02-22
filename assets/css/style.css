@@ -29,6 +29,12 @@ body{
 
 /* debug */
 
+.debug{
+
+    border: 1px solid black;
+    height: 100%;
+}
+
 .debug .top{
 
     background-color: #ff5f5f;
@@ -50,8 +56,23 @@ body{
 .debug .content{
 
     background-color: blue;
+    
+}
+
+.debug .container{
+
+    background-color: rgb(145, 145, 145);
+    
+}
+
+.debug #banner_upgrade{
+
+    background-color: #5a5c04;
+    
 
 }
+
+
 /* debug */
 
 /* utility */
@@ -68,6 +89,18 @@ body{
 
 }
 
+.center{
+
+    justify-content: center;
+
+}
+
+.flex_end{
+
+    justify-content: flex-end;
+
+}
+
 
 /* utility */
 
@@ -81,7 +114,7 @@ body{
 
 .top > .sidebar {
 
-    width: 70px;
+    width: 200px;
     overflow: hidden;
 
 }
@@ -100,8 +133,22 @@ body{
 
 .top > .content {
 
-    width: calc(100% - 70px);
+    width: calc(100% - 200px);
     overflow-y: auto;
+    height: 100%;
+}
+
+.container{
+
+    width: 100%;
+
+}
+
+#banner_upgrade{
+
+    width: 20%;
+    
+
 }
 
 /* layout */

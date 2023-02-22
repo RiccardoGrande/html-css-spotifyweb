@@ -78,6 +78,18 @@
 
 }
 
+.top > .sidebar_top {
+
+    height: calc( 100% - 60px);
+
+}
+
+.top > .sidebar_top {
+
+    height: 60px;
+
+}
+
 .top > .content {
 
     width: calc(100% - 70px);

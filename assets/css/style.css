@@ -8,7 +8,12 @@
 
 :root{
 
-    --sp-dark:
+    --sp-dark: #000000;
+    --sp-graydark: #141922;
+    --sp-lightgray: #a3a3a3;
+    --sp-gray: #72757a;
+    --sp-greenyellow: #adff2f;
+    --sp-grayfooter: #282828;
 
 }
 

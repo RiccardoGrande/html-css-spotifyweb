@@ -32,7 +32,7 @@ body{
 .debug{
 
     border: 1px solid black;
-    height: 100%;
+    
 }
 
 .debug .top{
@@ -90,6 +90,12 @@ body{
 
     
     background-color: rgb(171, 150, 114);
+
+}
+
+.debug .music_playing{
+
+    background-color: #305db1;
 
 }
 
@@ -211,6 +217,12 @@ body{
 .central{
 
     width: 60%;
+
+}
+
+.music_playing{
+
+    width: 100%;
 
 }
 

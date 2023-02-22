@@ -1,0 +1,56 @@
+/* default set */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* default set */
+
+/* debug */
+
+.debug .top{
+
+    background-color: #ff5f5f;
+
+}
+
+.debug footer{
+
+    background-color: rgb(46, 151, 151);
+
+}
+
+.debug .sidebar{
+
+    background-color: bisque;
+
+}
+
+.debug .content{
+
+    background-color: blue;
+
+}
+/* debug */
+
+/* layout */
+
+.top{
+
+    height: calc(100vh - 70px);
+
+}
+
+.top > .sidebar{
+
+    width: 70px;
+
+}
+
+.top > .content{
+
+    width: calc(100% - 70px);
+
+}

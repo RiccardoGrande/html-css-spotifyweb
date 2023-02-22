@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+:root{
+
+    --sp-dark:
+
+}
+
 /* default set */
 
 /* debug */
@@ -24,7 +30,7 @@
 
 .debug .sidebar{
 
-    background-color: bisque;
+    background-color: rgb(160, 119, 69);
 
 }
 
@@ -35,6 +41,23 @@
 }
 /* debug */
 
+/* utility */
+
+.d_flex{
+
+    display: flex;
+
+}
+
+.direction_column{
+
+    flex-direction: column;
+
+}
+
+
+/* utility */
+
 /* layout */
 
 .top{
@@ -43,14 +66,17 @@
 
 }
 
-.top > .sidebar{
+.top > .sidebar {
 
     width: 70px;
+    overflow: hidden;
 
 }
 
-.top > .content{
+.top > .content {
 
     width: calc(100% - 70px);
-
+    overflow-y: auto;
 }
+
+/* layout */

@@ -151,4 +151,10 @@ body{
 
 }
 
+.image,.text{
+
+    width: calc( 100% / 12 * 6);
+
+}
+
 /* layout */

@@ -188,7 +188,7 @@ body{
 
 }
 
-.image,.text{
+.image{
 
     width: calc( 100% / 12 * 6);
     height: 100px;
@@ -226,6 +226,44 @@ body{
 
             width: 100%;
             flex-wrap: wrap;
+            overflow: hidden;
         }
+
+        .link{
+
+            text-align: center;
+            flex-wrap: unset
+
+        }
+
+}
+
+
+@media screen and ( min-width: 481px ) and ( max-width: 768px ) {
+       
+    .container{
+
+        width: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .image{
+
+        width: 25%;
+
+    }
+
+}
+
+@media screen and ( min-width: 769px ) and ( max-width: 1120px ) {
+       
+    .container{
+
+        width: 100%;
+        overflow: hidden;
+    }
+
+    
 
 }

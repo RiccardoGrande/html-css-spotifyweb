@@ -223,7 +223,7 @@ hr{
 
 .fa-solid{
 
-    background-color: var(--sp-gray);
+    background-color: var(--sp-lightgray);
     color: #000000;
     padding: 10px;
     font-size: large;
@@ -239,12 +239,14 @@ hr{
 .container{
 
     width: 100%;
+    
 }
 
 .banner{
 
     background-color: var(--sp-graydark);
-
+    position: sticky;
+    top: 0px;
 }
 
 #banner_upgrade{
@@ -267,6 +269,7 @@ hr{
     padding: 10px;
     font-size: 13px;
     font-weight: bold;
+    color: var(--sp-gray);
 }
 
 .title{

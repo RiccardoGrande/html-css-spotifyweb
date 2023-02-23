@@ -30,11 +30,11 @@ body{
 
 /* debug */
 
-.debug{
+/* .debug{
 
     border: 1px solid black;
     
-}
+} */
 
 /* .debug .top{
 
@@ -42,11 +42,11 @@ body{
 
 } */
 
-.debug footer{
+/* .debug footer{
 
     background-color: rgb(46, 151, 151);
 
-}
+} */
 
 /* .debug .sidebar{
 
@@ -373,6 +373,7 @@ hr{
     width: 20%;
     height: 68px;
     align-items: center;
+    background-color: var(--sp-grayfooter);
 }
 
 #box_img{

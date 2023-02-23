@@ -192,6 +192,12 @@ body{
 
 }
 
+#icon_spotify{
+
+    display: none;
+
+}
+
 .svg_sidebar{
 
     height: 20px;
@@ -496,6 +502,40 @@ hr{
             overflow: hidden;
         }
 
+        #logo{
+
+            display: none;
+
+        }
+
+        #icon_spotify{
+
+            width: 100%;
+            display: block;
+            text-align: center;
+            filter: invert(1);
+            padding: 10px;
+        }
+
+        .svg_sidebar{
+
+            width: 100%;
+
+        }
+
+        span{
+
+            display: none;
+
+        }
+
+        .hide_list{
+
+            display: none;
+
+        }
+
+
         .link{
 
             text-align: center;
@@ -503,10 +543,22 @@ hr{
 
         }
 
+        #banner_upgrade{
+
+            width: 50%;
+
+        }
+
         .smaller{
 
             width: 50%;
             
+        }
+
+        #box_img,.detail_footer,.detail_footer_right{
+
+            width: 100%;
+
         }
 
 }
@@ -521,6 +573,25 @@ hr{
         overflow: hidden;
     }
 
+    .sidebar_top,.sidebar_bottom{
+
+        width: 100%;
+
+    }
+
+    #logo{
+
+        width: 90%;
+
+    }
+
+    
+    #banner_upgrade{
+
+        width: 50%;
+
+    }
+
     .image{
 
         width: 25%;
@@ -532,6 +603,8 @@ hr{
         width: 50%;
         
     }
+
+    
 
 }
 

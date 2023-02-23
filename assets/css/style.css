@@ -80,14 +80,14 @@ body{
 
 } */
 
-.debug .bottom_content{
+/* .debug .bottom_content{
 
     
     background-color: rgb(201, 127, 6);
 
-}
+} */
 
-.debug .central{
+/* .debug .central{
 
     
     background-color: rgb(171, 150, 114);
@@ -98,7 +98,7 @@ body{
 
     background-color: #305db1;
 
-}
+} */
 
 /* debug */
 
@@ -392,9 +392,14 @@ hr{
 
     margin-left: 90px;
     color: var(--sp-gray);
-
+    
 }
 
+.detail_footer .fa-regular{
+
+    padding: 10px;
+
+}
 
 
 .central{
@@ -454,6 +459,25 @@ hr{
     height: 5px;
     border-radius: 25px;
 
+}
+
+.detail_footer_right{
+
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.detail_footer_right>.music_bar{
+
+    width: 80%;
+
+}
+
+.detail_footer_right .fa-solid{
+
+    background-color: var(--sp-grayfooter);
+    color: white;
+    font-size: 10px;
 }
 
 

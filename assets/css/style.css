@@ -148,6 +148,8 @@ body{
 
     width: 20%;
     overflow: hidden;
+    line-height: 1.6;
+    background-color: var(--sp-dark);
 
 }
 
@@ -172,8 +174,59 @@ body{
 
 .svg_sidebar{
 
-    font-size: 20px;
+    height: 20px;
 
+}
+
+.sidebar_item{
+
+    margin: 10px;
+    color: var(--sp-gray);
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+#download{
+
+    filter: opacity(0.4);
+    vertical-align: middle;
+
+}
+
+.list_item{
+
+    list-style: none;
+
+}
+
+hr{
+
+    margin: 5px;
+}
+
+#playlist,#user{
+
+    color: white;
+    padding: 5px 0;
+
+}
+
+#profile{
+
+    background-color: var(--sp-lightgray);
+    border-radius: 50%;
+    padding: 2px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.fa-solid{
+
+    background-color: var(--sp-gray);
+    color: #000000;
+    padding: 10px;
+    font-size: large;
 }
 
 .top > .content {

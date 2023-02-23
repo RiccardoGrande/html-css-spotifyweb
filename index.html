@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 </head>
 <body class="debug">
@@ -25,9 +27,9 @@
 
                 </div>
 
-                <div class="list_item">
+                <div class="sidebar_item">
 
-                    <ul>
+                    <ul class="list_item">
                         <li>
 
                             <img class="svg_sidebar" src="./assets/img/home.svg" alt="home.svg">
@@ -54,17 +56,23 @@
                     
                 </div>
 
-                <div id="playlist">
+                <div class="sidebar_item">
 
-                    <div>PLAYLIST</div>
+                    <div id="playlist">PLAYLIST</div>
 
-                    <div>Crea playlist</div>
+                    <div>
+
+                        <i class="fa-solid fa-plus"></i>
+
+                        Crea playlist
+                    
+                    </div>
 
                 </div>
 
-                <div class="list_item">
+                <div class="sidebar_item">
 
-                    <ul>
+                    <ul class="list_item">
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -79,13 +87,24 @@
                 
 
             </div>
-            <div class="sidebar_bottom">
+            <div class="sidebar_bottom sidebar_item">
                 
-                <div id="install">Installa app</div>
+                <div id="install">
+                    
+                    <img id="download" class="svg_sidebar" src="./assets/img/download.svg" alt="">
+
+                    Installa app
+                
+                </div>
 
                 <hr>
 
-                <div id="profile">Don Joe</div>
+                <div id="user">
+                    
+                    <img id="profile" class="svg_sidebar" src="./assets/img/profile.svg" alt="profile.svg">
+                    Don Joe
+                
+                </div>
 
             </div>
 

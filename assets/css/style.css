@@ -128,6 +128,12 @@ body{
 
 }
 
+.space_around{
+
+    justify-content: space-around;
+
+}
+
 .space_between{
 
     justify-content: space-between;
@@ -137,6 +143,12 @@ body{
 .border_radius{
 
     border-radius: 50%;
+
+}
+
+.row_reverse{
+
+    flex-direction: row-reverse;
 
 }
 
@@ -383,11 +395,6 @@ hr{
 
 }
 
-.fa-regular{
-
-    padding: 10px;
-
-}
 
 
 .central{
@@ -399,6 +406,53 @@ hr{
 .music_playing{
 
     width: 100%;
+
+}
+
+.multimedia{
+
+    width: 25%;
+    margin: 5px auto;
+    color: white;
+    
+}
+
+.music_playing>.fa-regular{
+
+    font-size: 25px;
+
+}
+
+.music_playing>.fa-solid{
+
+    color: white;
+    background-color: var(--sp-grayfooter);
+    padding: 5px;
+}
+
+.time{
+
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.music_bar{
+
+    width: 50%;
+    background-color: var(--sp-gray);
+    height: 5px;
+    margin: 8px;
+    border-radius: 25px;
+
+}
+
+.bar_inside{
+
+    width: 20%;
+    background-color: var(--sp-lightgray);
+    height: 5px;
+    border-radius: 25px;
 
 }
 

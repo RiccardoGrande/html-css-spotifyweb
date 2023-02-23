@@ -61,16 +61,16 @@ body{
 
 .debug .container{
 
-    background-color: rgb(145, 145, 145);
+    background-color: rgb(100, 87, 87);
     
 }
 
-.debug #banner_upgrade{
+/* .debug #banner_upgrade{
 
     background-color: #5a5c04;
     
 
-}
+} */
 
 
 .debug .image,.text{
@@ -241,9 +241,23 @@ hr{
     width: 100%;
 }
 
+.banner{
+
+    background-color: var(--sp-graydark);
+
+}
+
 #banner_upgrade{
 
     width: 20%;
+    padding: 10px 20px;
+    margin: 15px 2px;
+    border-radius: 25px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
     
 
 }
@@ -251,7 +265,8 @@ hr{
 .link{
 
     padding: 10px;
-
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .title{

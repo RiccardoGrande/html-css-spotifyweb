@@ -10,6 +10,7 @@
 
     --sp-dark: #000000;
     --sp-graydark: #141922;
+    --sp-bannerdark: #080b12;
     --sp-lightgray: #a3a3a3;
     --sp-gray: #72757a;
     --sp-greenyellow: #adff2f;
@@ -35,11 +36,11 @@ body{
     
 }
 
-.debug .top{
+/* .debug .top{
 
     background-color: #ff5f5f;
 
-}
+} */
 
 .debug footer{
 
@@ -47,23 +48,23 @@ body{
 
 }
 
-.debug .sidebar{
+/* .debug .sidebar{
 
     background-color: rgb(160, 119, 69);
 
-}
+} */
 
-.debug .content{
+/* .debug .content{
 
     background-color: blue;
     
-}
+} */
 
-.debug .container{
+/* .debug .container{
 
     background-color: rgb(100, 87, 87);
     
-}
+} */
 
 /* .debug #banner_upgrade{
 
@@ -73,11 +74,11 @@ body{
 } */
 
 
-.debug .image,.text{
+/* .debug .image,.text{
 
     background-color: brown;
 
-}
+} */
 
 .debug .bottom_content{
 
@@ -130,6 +131,12 @@ body{
 .space_between{
 
     justify-content: space-between;
+
+}
+
+.border_radius{
+
+    border-radius: 50%;
 
 }
 
@@ -212,6 +219,12 @@ hr{
 
 }
 
+#user{
+
+    margin-bottom: -1rem;
+
+}
+
 #profile{
 
     background-color: var(--sp-lightgray);
@@ -234,19 +247,20 @@ hr{
     width: calc(100% - 20%);
     overflow-y: auto;
     height: 100%;
+    background-color: var(--sp-graydark);
 }
 
 .container{
 
     width: 100%;
-    
+    background-color: var(--sp-graydark);
 }
 
 .banner{
 
-    background-color: var(--sp-graydark);
+    background-color: var(--sp-bannerdark);
     position: sticky;
-    top: 0px;
+    top: -1px;
 }
 
 #banner_upgrade{
@@ -274,7 +288,7 @@ hr{
 
 .title{
 
-    padding: 1.5rem 10px;
+    padding: 1.5rem 20px;
     color: white;
     font-weight: bolder;
 
@@ -282,7 +296,7 @@ hr{
 
 .suggest{
 
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 10px;
     font-weight: bold;
     color: var(--sp-gray);

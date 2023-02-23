@@ -274,9 +274,19 @@ hr{
 
 .title{
 
-    padding: 1rem 0;
+    padding: 1.5rem 10px;
     color: white;
     font-weight: bolder;
+
+}
+
+.suggest{
+
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--sp-gray);
+    margin-top: -1.5rem;
 
 }
 

@@ -141,6 +141,7 @@ body{
 }
 
 
+
 /* utility */
 
 /* layout */
@@ -323,6 +324,13 @@ hr{
     
 }
 
+#text_fix{
+
+    padding: 0;
+    text-align: start;
+
+}
+
 .text_up{
 
     color: white;
@@ -352,15 +360,35 @@ hr{
 
     width: 20%;
     height: 68px;
-
+    align-items: center;
 }
 
-.bottom_content{
+#box_img{
 
     width: 20%;
-    height: 68px;
+    padding: 10px;
+}
+
+#img_footer{
+
+    max-width: 100%;
+
 
 }
+
+#icon_footer{
+
+    margin-left: 90px;
+    color: var(--sp-gray);
+
+}
+
+.fa-regular{
+
+    padding: 10px;
+
+}
+
 
 .central{
 

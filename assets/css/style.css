@@ -322,12 +322,12 @@ hr{
 
 }
 
-.row{
+.image{
 
     width: calc( 100% / 12 * 6);
 }
 
-.col{
+.img_container{
 
     width: 100%;
     text-align: center;
@@ -373,10 +373,11 @@ hr{
 
 }
 
+
 .bottom_content{
 
     width: 30%;
-    height: 69px;
+    height: 70px;
     align-items: center;
     background-color: var(--sp-grayfooter);
     overflow: hidden;
@@ -411,7 +412,7 @@ hr{
 
 .central{
 
-    width: 60%;
+    width: 40%;
 
 }
 
@@ -527,7 +528,7 @@ span:hover{
 
 /* media query */
 
-@media screen and ( min-width: 320px ){
+@media screen and ( min-width: 320px ) and ( max-width: 480px ) {
        
         .container{
 
@@ -639,7 +640,7 @@ span:hover{
 }
 
 
-@media screen and ( min-width: 480px ){
+@media screen and ( min-width: 481px ) and ( max-width: 768px ) {
        
     .container{
 
@@ -666,12 +667,6 @@ span:hover{
 
     }
 
-    #icon_spotify{
-        
-        display: none;
-
-    }
-
     
     #banner_upgrade{
 
@@ -685,7 +680,7 @@ span:hover{
     
     }
 
-    .row{
+    .image{
 
         width: 25%;
 
@@ -723,7 +718,7 @@ span:hover{
 
 }
 
-@media screen and ( min-width: 768px ) {
+@media screen and ( min-width: 769px ) and ( max-width: 1120px ) {
        
     .container{
 
@@ -734,12 +729,6 @@ span:hover{
     #logo{
 
         width: 90%;
-
-    }
-
-    #icon_spotify{
-        
-        display: none;
 
     }
 

@@ -489,6 +489,16 @@ hr{
 
 /* layout */
 
+/* effects */
+
+.link:hover{
+
+    color: white;
+
+}
+
+
+/* effects */
 
 /* media query */
 
@@ -521,6 +531,7 @@ hr{
             width: 100%;
 
         }
+        
 
         span{
 
@@ -542,6 +553,12 @@ hr{
 
         }
 
+        .link:hover{
+
+            color: white;
+        
+        }
+
         #banner_upgrade{
 
             width: 50%;
@@ -556,7 +573,7 @@ hr{
 
         #box_img,.detail_footer,.detail_footer_right{
 
-            width: 100%;
+            max-width: 100%;
 
         }
 
@@ -607,6 +624,12 @@ hr{
 
     }
 
+    .link:hover{
+
+        color: white;
+    
+    }
+
     .image{
 
         width: 25%;
@@ -621,6 +644,8 @@ hr{
 
     
 
+    
+
 
     
 
@@ -632,6 +657,18 @@ hr{
 
         width: 100%;
         overflow: hidden;
+    }
+
+    #logo{
+
+        width: 90%;
+
+    }
+
+    .link:hover{
+
+        color: white;
+    
     }
 
     

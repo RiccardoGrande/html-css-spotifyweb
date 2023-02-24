@@ -674,3 +674,13 @@ hr{
     
 
 }
+
+@media (hover: hover) {
+
+    .link:hover{
+
+        color: white;
+    
+    }
+
+  }

@@ -560,6 +560,14 @@ hr{
 
         }
 
+        
+        #user{
+
+            width: 20px; 
+            margin-left: 24px;
+
+        }
+
 }
 
 
@@ -602,6 +610,14 @@ hr{
         width: 50%;
         
     }
+
+    #user{
+
+        width: 20px; 
+        margin-left: 24px;
+
+    }
+
 
     
 

@@ -375,10 +375,11 @@ hr{
 
 .bottom_content{
 
-    width: 20%;
-    height: 68px;
+    width: 30%;
+    height: 69px;
     align-items: center;
     background-color: var(--sp-grayfooter);
+    overflow: hidden;
 }
 
 #box_img{
@@ -503,6 +504,18 @@ span:hover{
 
 }
 
+.fa-solid:hover{
+
+    color: white;
+
+}
+
+#download:hover{
+
+    color: white;
+
+}
+
 
 /* effects */
 
@@ -598,7 +611,17 @@ span:hover{
 
         }
 
+        .fa-solid:hover{
+
+            background-color: white;
         
+        }
+
+        #download:hover{
+
+            filter: none;
+        
+        }
 
 }
 
@@ -667,7 +690,17 @@ span:hover{
     
     }
 
+    .fa-solid:hover{
+
+        background-color: white;
     
+    }
+
+    #download:hover{
+
+        filter: none;
+    
+    }
 
 }
 
@@ -703,8 +736,18 @@ span:hover{
     
     }
 
+    .fa-solid:hover{
 
+        background-color: white;
     
+    }
+    
+
+    #download:hover{
+
+        filter: none;
+    
+    }
 
 }
 
@@ -728,5 +771,16 @@ span:hover{
     
     }
 
+    .fa-solid:hover{
+
+        background-color: white;
+    
+    }
+
+    #download:hover{
+
+        filter: none;
+    
+    }
 
   }

@@ -516,12 +516,18 @@ span:hover{
 
 }
 
+#banner_upgrade:hover{
+
+    font-size: 15px;
+
+}
+
 
 /* effects */
 
 /* media query */
 
-@media screen and ( min-width: 320px ) and ( max-width: 480px ) {
+@media screen and ( min-width: 320px ){
        
         .container{
 
@@ -591,6 +597,12 @@ span:hover{
 
         }
 
+        #banner_upgrade:hover{
+
+            font-size: 15px;
+        
+        }
+
         .smaller{
 
             width: 50%;
@@ -623,10 +635,11 @@ span:hover{
         
         }
 
+
 }
 
 
-@media screen and ( min-width: 481px ) and ( max-width: 768px ) {
+@media screen and ( min-width: 480px ){
        
     .container{
 
@@ -704,7 +717,7 @@ span:hover{
 
 }
 
-@media screen and ( min-width: 769px ) and ( max-width: 1120px ) {
+@media screen and ( min-width: 768px ) {
        
     .container{
 
@@ -746,6 +759,12 @@ span:hover{
     #download:hover{
 
         filter: none;
+    
+    }
+
+    #banner_upgrade:hover{
+
+        font-size: 15px;
     
     }
 

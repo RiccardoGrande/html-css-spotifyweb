@@ -497,6 +497,12 @@ hr{
 
 }
 
+span:hover{
+
+    color: white;
+
+}
+
 
 /* effects */
 
@@ -539,11 +545,18 @@ hr{
 
         }
 
+        span:hover{
+
+            color: white;
+        
+        }
+
         .hide_list{
 
             display: none;
 
         }
+        
 
 
         .link{
@@ -642,10 +655,17 @@ hr{
         
     }
 
-    
+    span:hover{
 
+        color: white;
     
+    }
 
+    .hide_list:hover{
+
+        color: white;
+    
+    }
 
     
 
@@ -671,6 +691,19 @@ hr{
     
     }
 
+    span:hover{
+
+        color: white;
+    
+    }
+
+    .hide_list:hover{
+
+        color: white;
+    
+    }
+
+
     
 
 }
@@ -678,6 +711,18 @@ hr{
 @media (hover: hover) {
 
     .link:hover{
+
+        color: white;
+    
+    }
+
+    span:hover{
+
+        color: white;
+    
+    }
+
+    .hide_list:hover{
 
         color: white;
     

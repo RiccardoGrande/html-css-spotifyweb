@@ -583,6 +583,12 @@ hr{
     .sidebar_top,.sidebar_bottom{
 
         width: 100%;
+        font-size: 8px;
+    }
+
+    .sidebar_item{
+
+        font-size: 10px;
 
     }
 
@@ -611,12 +617,7 @@ hr{
         
     }
 
-    #user{
-
-        width: 20px; 
-        margin-left: 24px;
-
-    }
+    
 
 
     

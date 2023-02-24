@@ -322,12 +322,12 @@ hr{
 
 }
 
-.image{
+.row{
 
     width: calc( 100% / 12 * 6);
 }
 
-.img_container{
+.col{
 
     width: 100%;
     text-align: center;
@@ -666,6 +666,12 @@ span:hover{
 
     }
 
+    #icon_spotify{
+        
+        display: none;
+
+    }
+
     
     #banner_upgrade{
 
@@ -679,7 +685,7 @@ span:hover{
     
     }
 
-    .image{
+    .row{
 
         width: 25%;
 
@@ -728,6 +734,12 @@ span:hover{
     #logo{
 
         width: 90%;
+
+    }
+
+    #icon_spotify{
+        
+        display: none;
 
     }
 
